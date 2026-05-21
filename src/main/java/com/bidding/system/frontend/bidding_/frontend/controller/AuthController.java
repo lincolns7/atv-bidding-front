@@ -8,7 +8,6 @@ import com.bidding.system.frontend.bidding_.frontend.model.UserRequestDTO;
 import com.bidding.system.frontend.bidding_.frontend.service.ApiService;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.client.RestTemplate;
 
 /**
  *
@@ -32,4 +31,5 @@ public class AuthController {
             return "login?error=true";
         }
     }
+    
 }
